@@ -14,10 +14,10 @@ const data = {
 const queryString = qs.stringify(data, {
   allowDots: true,
 });
-console.log(queryString, "queryStringfy===>");
+console.log(queryString);
 
-const res=qs.parse(queryString);
-console.log(res,'response====>')
+const res = qs.parse(queryString);
+console.log(res);
 const QueryStringExample2 = () => {
   return <div></div>;
 };
