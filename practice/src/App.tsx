@@ -1,9 +1,9 @@
-import CallBackExample1 from "./UseCallBack/CallBackExample1";
+import QueryStringExample2 from "./SlickExample/Example2";
 
 const App = () => {
   return (
     <div>
-      <CallBackExample1 />
+      <QueryStringExample2 />
     </div>
   );
 };

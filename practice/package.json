@@ -11,14 +11,18 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
+    "@types/qs": "^6.9.17",
+    "@types/react-slick": "^0.23.13",
     "axios": "^1.6.8",
     "loadsh": "^0.0.4",
     "lodash.debounce": "^4.0.8",
     "qrcode": "^1.5.4",
+    "qs": "^6.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.3",
     "react-paginate": "^8.2.0",
+    "react-slick": "^0.30.3",
     "yup": "^1.4.0",
     "zod": "^3.22.4"
   },
