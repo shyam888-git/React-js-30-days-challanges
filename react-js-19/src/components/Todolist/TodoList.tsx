@@ -17,7 +17,7 @@ const TodoList = () => {
     }
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} >
                 <input style={{ marginTop: '20px' }} type="text" value={inputValue} onChange={handleChange} placeholder="Enter the list of food" />
                 <button type='submit'>Submit </button>
             </form>

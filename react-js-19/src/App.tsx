@@ -1,11 +1,12 @@
 import './App.css'
-import { Profile } from './components/Profile/Profile'
+import { ShoppingList } from './components/ShoppingList/ShoppingList'
 function App() {
 
     return (
         <>
             {/* <TodoList/>  */}
-            <Profile />
+            {/* <Profile /> */}
+            <ShoppingList />
         </>
     )
 }
