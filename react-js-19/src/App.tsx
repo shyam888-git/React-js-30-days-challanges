@@ -1,11 +1,10 @@
 import './App.css'
-import { Example } from './LocalStorage/Example'
-
+import TodoList from './components/Todolist/TodoList'
 function App() {
 
     return (
         <>
-            <Example />
+        <TodoList/> 
         </>
     )
 }
