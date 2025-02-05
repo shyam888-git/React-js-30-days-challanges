@@ -1,5 +1,5 @@
 import './App.css'
-import { UseEffectExample } from './components/UseEffect/UseEffect'
+import { Example1 } from './components/UseReducer/UseReducer'
 function App() {
 
     return (
@@ -9,7 +9,9 @@ function App() {
             {/* <ShoppingList /> */}
             {/* <CopyContent /> */}
             {/* <Switcher /> */}
-            <UseEffectExample />
+            {/* <UseEffectExample /> */}
+
+            <Example1 />
         </>
     )
 }
