@@ -1,12 +1,13 @@
 import './App.css'
-import { ShoppingList } from './components/ShoppingList/ShoppingList'
+import { CopyContent } from './components/CopyContent/CopyContent'
 function App() {
 
     return (
         <>
             {/* <TodoList/>  */}
             {/* <Profile /> */}
-            <ShoppingList />
+            {/* <ShoppingList /> */}
+            <CopyContent />
         </>
     )
 }
