@@ -1,5 +1,5 @@
 import './App.css'
-import { CopyContent } from './components/CopyContent/CopyContent'
+import { Switcher } from './components/Switcher/Switcher'
 function App() {
 
     return (
@@ -7,7 +7,8 @@ function App() {
             {/* <TodoList/>  */}
             {/* <Profile /> */}
             {/* <ShoppingList /> */}
-            <CopyContent />
+            {/* <CopyContent /> */}
+            <Switcher />
         </>
     )
 }
