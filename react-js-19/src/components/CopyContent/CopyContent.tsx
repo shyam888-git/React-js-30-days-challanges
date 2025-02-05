@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { PopupContent } from "./PopupConent";
 
 export const CopyContent = () => {
     const [inputValue, setInputValue] = useState('');
@@ -7,7 +8,7 @@ export const CopyContent = () => {
     const handleSubmit = () => {
         navigator.clipboard.writeText(inputValue).then(() => {
             setCopied(true);
-            setTimeout(() => setCopied(false), 2000)
+            setTimeout(() => setCopied(false), 10000)
 
 
         })
@@ -19,6 +20,8 @@ export const CopyContent = () => {
             <h3>Copy Content</h3>
             <input type="text" value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="copy the text" />
             <button type="submit" onClick={handleSubmit}>Copy </button>
+
+            <PopupContent copied={copied}/>
         </>
     )
 }
