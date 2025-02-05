@@ -1,5 +1,5 @@
 import './App.css'
-import { Example1 } from './components/UseRef/Example1'
+import { Example4 } from './components/UseRef/Example4'
 function App() {
 
     return (
@@ -14,7 +14,9 @@ function App() {
             {/* <Example1 /> */}
             {/* <Counter /> */}
 
-            <Example1 />
+            {/* <Example3 /> */}
+
+            <Example4 />
         </>
     )
 }
