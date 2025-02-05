@@ -1,5 +1,5 @@
 import './App.css'
-import { Counter } from './components/UseReducer/Counter'
+import { Example1 } from './components/UseRef/Example1'
 function App() {
 
     return (
@@ -12,7 +12,9 @@ function App() {
             {/* <UseEffectExample /> */}
 
             {/* <Example1 /> */}
-            <Counter />
+            {/* <Counter /> */}
+
+            <Example1 />
         </>
     )
 }
