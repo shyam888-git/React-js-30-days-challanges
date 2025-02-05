@@ -1,5 +1,5 @@
 import './App.css'
-import { Switcher } from './components/Switcher/Switcher'
+import { UseEffectExample } from './components/UseEffect/UseEffect'
 function App() {
 
     return (
@@ -8,7 +8,8 @@ function App() {
             {/* <Profile /> */}
             {/* <ShoppingList /> */}
             {/* <CopyContent /> */}
-            <Switcher />
+            {/* <Switcher /> */}
+            <UseEffectExample />
         </>
     )
 }
