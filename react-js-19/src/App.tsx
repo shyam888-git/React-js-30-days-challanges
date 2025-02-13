@@ -1,5 +1,5 @@
 
-import { Counter } from './02.React Hook/5.useReducer/components/Counter'
+import { Timer } from './02.React Hook/6.useRef/components/Timer'
 import './App.css'
 function App() {
 
@@ -9,7 +9,9 @@ function App() {
             {/* <Profile /> */}
             {/* <ShoppingList /> */}
             {/* <CopyContent /> */}
-            <Counter />
+            {/* <Counter /> */}
+            {/* <FocusInput /> */}
+            <Timer />
         </>
     )
 }
