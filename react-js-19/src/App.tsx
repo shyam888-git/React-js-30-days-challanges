@@ -1,3 +1,4 @@
+import { UpdateUser } from './02.React Hook/4.Context/excrise/components/UpdateUser'
 import { UserProfile } from './02.React Hook/4.Context/excrise/components/UserProfile'
 import { UserProvider } from './02.React Hook/4.Context/excrise/UserContext'
 import './App.css'
@@ -12,6 +13,7 @@ function App() {
             {/* <CopyContent /> */}
             <UserProvider>
                 <UserProfile />
+                <UpdateUser />
             </UserProvider>
         </>
     )
