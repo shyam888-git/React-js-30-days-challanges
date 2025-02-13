@@ -1,8 +1,6 @@
-import { UpdateUser } from './02.React Hook/4.Context/excrise/components/UpdateUser'
-import { UserProfile } from './02.React Hook/4.Context/excrise/components/UserProfile'
-import { UserProvider } from './02.React Hook/4.Context/excrise/UserContext'
+
+import { Counter } from './02.React Hook/5.useReducer/components/Counter'
 import './App.css'
-import { Switcher } from './components/Switcher/Switcher'
 function App() {
 
     return (
@@ -11,10 +9,7 @@ function App() {
             {/* <Profile /> */}
             {/* <ShoppingList /> */}
             {/* <CopyContent /> */}
-            <UserProvider>
-                <UserProfile />
-                <UpdateUser />
-            </UserProvider>
+            <Counter />
         </>
     )
 }
