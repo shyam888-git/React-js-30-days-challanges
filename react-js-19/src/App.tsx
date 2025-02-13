@@ -1,3 +1,5 @@
+import { UserProfile } from './02.React Hook/4.Context/excrise/components/UserProfile'
+import { UserProvider } from './02.React Hook/4.Context/excrise/UserContext'
 import './App.css'
 import { Switcher } from './components/Switcher/Switcher'
 function App() {
@@ -8,7 +10,9 @@ function App() {
             {/* <Profile /> */}
             {/* <ShoppingList /> */}
             {/* <CopyContent /> */}
-            <Switcher />
+            <UserProvider>
+                <UserProfile />
+            </UserProvider>
         </>
     )
 }
