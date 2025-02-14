@@ -1,5 +1,5 @@
 
-import { Projects } from './03.Meals Api Project/Projects'
+import { ColorToggler } from './03.Beginners Projects/ColorToggler'
 import './App.css'
 function App() {
 
@@ -13,7 +13,8 @@ function App() {
             {/* <FocusInput /> */}
             {/* <Timer /> */}
             {/* <Todo/> */}
-            <Projects />
+            {/* <Projects /> */}
+            <ColorToggler />
         </>
     )
 }
