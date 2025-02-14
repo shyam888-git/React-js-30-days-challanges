@@ -1,5 +1,5 @@
 
-import { Todo } from './03.Beginners Projects/Todo'
+import { Projects } from './03.Meals Api Project/Projects'
 import './App.css'
 function App() {
 
@@ -12,7 +12,8 @@ function App() {
             {/* <Counter /> */}
             {/* <FocusInput /> */}
             {/* <Timer /> */}
-            <Todo/>
+            {/* <Todo/> */}
+            <Projects />
         </>
     )
 }
