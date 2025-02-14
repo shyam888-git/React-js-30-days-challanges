@@ -1,5 +1,5 @@
 
-import { Timer } from './02.React Hook/6.useRef/components/Timer'
+import { Todo } from './03.Beginners Projects/Todo'
 import './App.css'
 function App() {
 
@@ -11,7 +11,8 @@ function App() {
             {/* <CopyContent /> */}
             {/* <Counter /> */}
             {/* <FocusInput /> */}
-            <Timer />
+            {/* <Timer /> */}
+            <Todo/>
         </>
     )
 }
