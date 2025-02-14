@@ -1,5 +1,5 @@
 
-import { ColorToggler } from './03.Beginners Projects/ColorToggler'
+import { Testmonials } from './03.Beginners Projects/TestMonials/Testmonials'
 import './App.css'
 function App() {
 
@@ -14,7 +14,8 @@ function App() {
             {/* <Timer /> */}
             {/* <Todo/> */}
             {/* <Projects /> */}
-            <ColorToggler />
+            {/* <ColorToggler /> */}
+            <Testmonials />
         </>
     )
 }
