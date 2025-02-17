@@ -1,21 +1,14 @@
+import React from 'react'
+import Nav from './03.Beginners Projects/E-commerce Advance Filter/Navigation/Nav'
+import Product from './03.Beginners Projects/E-commerce Advance Filter/Products/Product'
+import Recommended from './03.Beginners Projects/E-commerce Advance Filter/Recommended/Recommended'
 
-import { Testmonials } from './03.Beginners Projects/TestMonials/Testmonials'
-import './App.css'
 function App() {
-
     return (
         <>
-            {/* <TodoList/>  */}
-            {/* <Profile /> */}
-            {/* <ShoppingList /> */}
-            {/* <CopyContent /> */}
-            {/* <Counter /> */}
-            {/* <FocusInput /> */}
-            {/* <Timer /> */}
-            {/* <Todo/> */}
-            {/* <Projects /> */}
-            {/* <ColorToggler /> */}
-            <Testmonials />
+            <Nav />
+            <Product />
+            <Recommended />
         </>
     )
 }
