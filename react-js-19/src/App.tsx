@@ -1,17 +1,19 @@
-import Nav from './03.Beginners Projects/E-commerce Advance Filter/Navigation/Nav'
-import Product from './03.Beginners Projects/E-commerce Advance Filter/Products/Product'
-import Recommended from './03.Beginners Projects/E-commerce Advance Filter/Recommended/Recommended'
-import Sidebar from './03.Beginners Projects/E-commerce Advance Filter/Sidebar/Sidebar'
+import React from 'react'
 
-function App() {
+
+const App = () => {
+
+    function getRandomKeyValuePair<T>(obj: { [key: string]: T }): { key: string, value: T } {
+        const keys = Object.keys(obj);
+        const randKey = keys[Math.floor(Math.random() * keys.length)];
+        return { key: randKey, value: obj[randKey] };
+    }
+    const objs = { a: 'hello', b: "how are you", c: "what'sup" };
+    const res = getRandomKeyValuePair<string>(objs);
+    console.log(res);
+
     return (
-        <>
-            <Sidebar />
-            <Nav />
-            <Recommended />
-            <Product />
-
-        </>
+        <div>App</div>
     )
 }
 
