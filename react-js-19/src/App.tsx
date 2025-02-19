@@ -1,16 +1,9 @@
-import React from 'react'
+import { filterArray } from './Typescript/GenericExample4'
 
 
 const App = () => {
 
-    function getRandomKeyValuePair<T>(obj: { [key: string]: T }): { key: string, value: T } {
-        const keys = Object.keys(obj);
-        const randKey = keys[Math.floor(Math.random() * keys.length)];
-        return { key: randKey, value: obj[randKey] };
-    }
-    const objs = { a: 'hello', b: "how are you", c: "what'sup" };
-    const res = getRandomKeyValuePair<string>(objs);
-    console.log(res);
+    filterArray;
 
     return (
         <div>App</div>
