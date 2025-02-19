@@ -1,9 +1,10 @@
-import { filterArray } from './Typescript/GenericExample4'
+import { reverse } from "./Typescript/GenericExample5";
+import { myFunction } from "./Typescript/TypeGuard/Example1";
 
 
 const App = () => {
 
-    filterArray;
+    myFunction;
 
     return (
         <div>App</div>
