@@ -1,5 +1,5 @@
-import AdminInfo from "./04.React w Typescript/03.Reusable Types 2/Components/AdminInfo"
-import UserInfo from "./04.React w Typescript/03.Reusable Types 2/Components/UserInfo"
+import UserInfo from './Components/UserInfo'
+import AdminInfo from './Components/AdminInfo'
 
 const App = () => {
     return (
