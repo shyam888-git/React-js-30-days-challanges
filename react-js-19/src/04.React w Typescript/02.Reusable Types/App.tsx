@@ -1,6 +1,6 @@
-import AdminInfo from "./04.React w Typescript/02.Reusable Types/Components/AdminInfo"
-import UserInfo from "./04.React w Typescript/02.Reusable Types/Components/UserInfo"
-import { AdminInfoList, info } from "./04.React w Typescript/02.Reusable Types/types"
+import AdminInfo from "./Components/AdminInfo"
+import UserInfo from "./Components/UserInfo"
+import { AdminInfoList, info } from "./types"
 
 const App = () => {
 
