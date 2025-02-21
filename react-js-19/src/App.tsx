@@ -1,11 +1,10 @@
-import React from 'react'
-import UserProfile from './04.React w Typescript/4.use state/UserProfile'
-import TodoList from './04.React w Typescript/4.use state/TodoList'
+
+import EventHandling from './04.React w Typescript/5.useRef, form, events/EventHandling'
 
 const App = () => {
     return (
         <div style={{ margin: '50px' }}>
-            <TodoList />
+            <EventHandling />
         </div>
     )
 }
